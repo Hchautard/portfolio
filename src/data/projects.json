@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Site de gestion de projet",
+            "description": "Developed an AI-powered chatbot using natural language processing techniques.",
+            "technologies": ["JavaScript", "Php", "SQL"],
+            "year": 2023,
+            "image": "/assets/images/Amuflow_logo.png",
+            "modal": true,
+            "image_content": [
+                "/assets/images/placeholder_img.jpg",
+                "/assets/images/placeholder_img.jpg",
+                "/assets/images/placeholder_img.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Masterdetail",
+            "description": "Built a web scraping tool to extract data from websites and store it in a database.",
+            "technologies": ["Qt", "C++"],
+            "year": 2022,
+            "image": "/assets/images/masterdetail-example.png",
+            "modal": true,
+            "image_content": [
+                "/assets/images/placeholder_img.jpg",
+                "/assets/images/placeholder_img.jpg",
+                "/assets/images/placeholder_img.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Application web de gestion de budget",
+            "description": "Une application web qui aide les utilisateurs à planifier et à suivre leurs dépenses afin de mieux gérer leur budget. L'outil serait capable de catégoriser les dépenses, de suivre les revenus et les dépenses, et de fournir des analyses et des recommandations pour une utilisation optimale des fonds. Les utilisateurs pourraient également définir des objectifs financiers et suivre leur progression.",            
+            "technologies": ["React", "JavaScript", "SQL"],
+            "year": 2024,
+            "image": "/assets/images/InTime_logo.png",
+            "modal": true,
+            "image_content": [
+                "/assets/images/intime_img_1.png",
+                "/assets/images/intime_img_2.png",
+                "/assets/images/intime_img_3.png"
+            ]
+        }
+    ]
+}
