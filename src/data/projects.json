@@ -3,29 +3,14 @@
         {
             "id": 1,
             "title": "Site de gestion de projet",
-            "description": "Developed an AI-powered chatbot using natural language processing techniques.",
+            "description": "Un site web de gestion de projet, conviviale et intuitive, conçue pour aider les équipes à planifier, organiser et suivre leurs tâches et projets. À l'instar de Monday.com, cet outil offre un tableau de bord centralisé où les utilisateurs peuvent visualiser l'avancement des projets, assigner des tâches, fixer des échéances et suivre les progrès en temps réel.",
             "technologies": ["JavaScript", "Php", "SQL"],
             "year": 2023,
             "image": "/assets/images/Amuflow_logo.png",
             "modal": true,
             "image_content": [
-                "/assets/images/placeholder_img.jpg",
-                "/assets/images/placeholder_img.jpg",
-                "/assets/images/placeholder_img.jpg"
-            ]
-        },
-        {
-            "id": 2,
-            "title": "Masterdetail",
-            "description": "Built a web scraping tool to extract data from websites and store it in a database.",
-            "technologies": ["Qt", "C++"],
-            "year": 2022,
-            "image": "/assets/images/masterdetail-example.png",
-            "modal": true,
-            "image_content": [
-                "/assets/images/placeholder_img.jpg",
-                "/assets/images/placeholder_img.jpg",
-                "/assets/images/placeholder_img.jpg"
+                "/assets/images/amuflow_img_1.png",
+                "/assets/images/amuflow_img_1.png"
             ]
         },
         {

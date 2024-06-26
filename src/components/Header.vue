@@ -11,9 +11,6 @@
             <h3><a href="#contact">Me contacter</a></h3>
         </div>
     </nav>
-    <div>
-        <h1>Mon portfolio</h1>
-    </div>
    
         <a href="https://github.com/SuhDud3"> 
             <i class="fa fa-github" style="font-size:36px"></i>
@@ -30,13 +27,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-    @import "../../public/assets/css/const.scss";
+    @import "../../public/assets/css/const";
 
     .sublinks {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
-        align-items: center;
+        align-items: right;
         width: 25em;
     }
 
@@ -45,8 +42,12 @@ export default {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        height: 100px;
+        height: 975px;
         margin-bottom: 50px;
+
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
     }
 
     * {

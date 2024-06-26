@@ -1,8 +1,9 @@
 <template>
     <div id="my-projects">
-        <div id="my-projects-title">
+      <img src="../../public/assets/images/monet_2.jpg" id="wallpaper-painting-3">
+        <!-- <div id="my-projects-title">
             <h1>Mes projets</h1>
-        </div>
+        </div> -->
         <div id="my-projects-body">
           <div v-for="project in projects"
             v-bind:key="project.id"
@@ -41,6 +42,23 @@
         display: flex;
         justify-content: center;
       }
+
+      #my-projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // background-image: url('../../public/assets/images/monet_2.jpg');
+        height: 100vh;
+      }
+
+      #wallpaper-painting-3 {
+          position: absolute;
+          width: 209vh; 
+          height: 108%;
+          z-index: -1;
+          // opacity: ;
+        }
 
       #my-projects-body {
         height: 100%;

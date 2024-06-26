@@ -14,9 +14,8 @@
 
         <div class="modal" v-if="projects.modal">
             <div class="modal-content">
-                <h3>{{ projects.title }}</h3><br/>
-                <p>{{ projects.description }}</p><br/>
-                <a :href="projects.github" target="_blank">Voir le GitHub</a><br/>
+                <h3 class="modal-project-title">{{ projects.title }}</h3>
+                <p>{{ projects.description }}</p>
                 <div class="modal-technologies">
                     <p v-for="technologies in projects.technologies" :key="technologies.id">{{ technologies }}</p>
                 </div>
@@ -52,14 +51,24 @@ export default {
         align-items: center;
         text-align: center;
         height: 100%;
+        background-color: $white;
+        border-radius: 20px;
+
+        
 
         &:hover {
             cursor: pointer;
+
             .modal {
-                transition: 0.5s;
 
                 height: 700px;
                 width: 1500px;
+
+                .modal-project-title {
+                    font-size: 1.5em;
+                    font-family: 'Notted';
+                    color: $darkDarkColor;
+                }
 
                 .modal-content {
                     display: flex;
@@ -68,26 +77,41 @@ export default {
                     justify-content: center;
                     height: 100%;
                     width: 100%;
+
+                    p {
+                        width: 80%;
+                        font-family: monospace;
+                        font-size: 1.5em;
+                        font-weight: 300;
+                        color: $darkDarkColor;
+                        text-align: justify;
+                        line-height: 1.5em;
+                    }
                 }
 
+                
+                    display: block;
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: $white;
+                    border-radius: 20px;
+                    padding: 20px;
+                    z-index: 1000;
+                
 
-                display: block;
-                position: fixed;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                background-color: white;
-                border: 1px solid black;
-                padding: 20px;
-                z-index: 1000;
+                
 
                 .modal-technologies {
                     display: flex;
                     flex-direction: row;
-                    justify-content: center;
-                    align-items: center;
-                    padding-top: 10px;
-                    width: 200px;
+                    width: 50%;
+                    margin-top: -20px;
+
+                    p {
+                        text-align: center;
+                    }
                 }
             }
         }
@@ -104,6 +128,9 @@ export default {
         align-items: center;
         width: auto;
         padding: 0px 20px;
+        font-family: 'Notted';
+        font-size: 1.5em;
+        color: $darkDarkColor;
     }
 
     .projects-img {
@@ -125,6 +152,7 @@ export default {
 
     .modal {
         display: none;
+        transition: 1s;
     }
 
 
