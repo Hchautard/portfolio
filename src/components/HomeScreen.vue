@@ -7,15 +7,15 @@
         </div>
         <div class="right-side">
           <nav>
-            <div class="me-title">
-              <h1><a href="#about-me">projets,</a></h1>
-            </div>
             <div class="project-title">
-              <h1><a href="#my-projects">à propos,</a></h1>
+              <h1><a href="#my-projects">projets,</a></h1>
             </div>
-            <div class="contact-title">
+            <div class="me-title">
+              <h1><a href="#about-me">à propos</a></h1>
+            </div>
+            <!-- <div class="contact-title">
               <h1><a href="#contact">contacter</a></h1>
-            </div>
+            </div> -->
           </nav>
         </div>
       </div>
@@ -84,7 +84,6 @@
             display: flex;
             flex-direction: row;
             align-items: left;
-            width: 27em;
 
             a {
               color: $white;

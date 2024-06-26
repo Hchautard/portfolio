@@ -11,6 +11,13 @@
                 Je suis un développeur fullstack junior basé dans le sud de la France, originaire de Saint Rémy de Provence. 
                 J'ai une passion pour l’art et je suis toujours prêt à explorer de nouvelles façons d'intégrer le design dans mes projets numériques.
               </p>
+              <div id="about-me-link">
+                <a href="https://www.linkedin.com/in/hugo-chautard-409a151a0/" target="_blank">LinkedIn</a>
+                <br>
+                <a href="https://github.com/SuhDud3" target="_blank">Github</a>
+                <br>
+                <a href="">chautardhugo@gmail.com</a>
+              </div>
           </div>
       </div>
     </div>
@@ -97,6 +104,16 @@
               color: $darkDarkColor;
               text-align: justify;
               line-height: 1.5em;
+          }
+      }
+
+      #about-me-link {
+          margin-top: 20px;
+
+          a {
+              font-family: 'Courier New', Courier, monospace;
+              color: $darkDarkColor;
+              text-decoration: none;
           }
       }
 
