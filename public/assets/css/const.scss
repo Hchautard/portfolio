@@ -1,3 +1,7 @@
-$darkColor : #2c3e50;
-$white : #ecf0f1;
-$darkDarkColor : rgb(30, 42, 54);
+$default-color: #e0e0e0;
+
+.neomorphic {
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
