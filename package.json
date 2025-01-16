@@ -12,6 +12,7 @@
     "epic-spinners": "^2.0.0",
     "vue": "^3.2.13",
     "vue-carousel": "^0.18.0",
+    "vue-responsive-grid-layout": "^1.2.0",
     "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
@@ -20,10 +21,13 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.20",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^8.4.49",
     "sass": "^1.69.5",
-    "sass-loader": "^13.3.2"
+    "sass-loader": "^13.3.2",
+    "tailwindcss": "^3.4.17"
   },
   "eslintConfig": {
     "root": true,

@@ -1,10 +1,12 @@
 <template>
-  <div id="app">
-    <div id="container-app" class="neomorphic">
-      <MeBlock />
-      <ExperienceBlock />
+    <div class="bg-gray-50 py-24 sm:py-32">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <MeBlock />
+                <ExperienceBlock />
+            </div>
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -12,17 +14,19 @@
 import MeBlock from './components/MeBlock.vue'
 import ExperienceBlock from './components/ExperienceBlock.vue'
 
+
 export default {
   name: 'App',
   components: {
     MeBlock,
-    ExperienceBlock
+    ExperienceBlock,
   },
 }
 
 </script>
 
 <style lang="scss">
+  @import './index.css';
   @import "../public/assets/css/const";
 
   #app {
@@ -34,14 +38,16 @@ export default {
 
   #container-app {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100vh;
-    width: 100vw;
+    grid-template-columns: 3fr 2fr;
+    height: 90%;
+    width: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     border-radius: unset;
+    
+    background-color: red;
   }
 
 
